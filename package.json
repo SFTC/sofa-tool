@@ -1,0 +1,20 @@
+{
+  "name": "sofa-tool",
+  "version": "1.0.0",
+  "description": "sofa develop tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "sofa"
+  ],
+  "author": "lichun",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "git-info": "^1.1.0",
+    "superagent": "^3.8.2"
+  }
+}
