@@ -1,6 +1,6 @@
 # Sofa-tool
 
-发布在了内部cnpm服务器，sofa组件库开发脚手架，当前只开发了 *create* 命令；
+发布在了内部cnpm服务器，sofa组件库开发脚手架，当前只开发了 *create* 命令；更多命令集结中~
 
 ## 使用
 
@@ -18,4 +18,12 @@ cnpm i -g @sftc/sofa-tool
 cd sofa
 sofa -c componentName
 
+# 测试一下
+npm run test
+
 ```
+
+## create
+
+* create folder: packages/{componentName}
+* create document: test/unit/specs/{componentName}.spec.js
