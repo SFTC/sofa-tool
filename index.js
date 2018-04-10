@@ -9,8 +9,8 @@ const user = require('./lib/getUserInfo');
 
 commander
   .version('0.0.1')
-  .option('-c, --create [value]', 'Create new Sofa-Component')
-  .option('-d, --delete [value]', 'Delete a Sofa-Component declare')
+  .option('-c, --create [value]', 'create new Sofa-Component')
+  .option('-d, --delete [value]', 'delete a Sofa-Component declare')
   .parse(process.argv)
 
 if (commander.create) {
