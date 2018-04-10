@@ -1,6 +1,6 @@
 # Sofa-tool
 
-发布在了内部cnpm服务器，sofa组件库开发脚手架，当前只开发了 *create* 命令；更多命令集结中~
+发布在了内部cnpm服务器，sofa组件库开发脚手架，当前只开发了 *create*、*delete* 命令；更多命令集结中~
 
 ## 使用
 
@@ -14,12 +14,15 @@ cnpm set registry http://10.188.40.14:7001
 # 安装
 cnpm i -g @sftc/sofa-tool
 
-# 使用
+# 新增
 cd sofa
 sofa -c componentName
 
 # 测试一下
 npm run test
+
+# 删除（删除声明）
+sofa -d componentName
 
 ```
 
@@ -27,3 +30,7 @@ npm run test
 
 * create folder: packages/{componentName}
 * create document: test/unit/specs/{componentName}.spec.js
+
+## delete
+
+delete the declare of the component
