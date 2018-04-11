@@ -1,6 +1,6 @@
 {
   "name": "@sftc/sofa-tool",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "sofa develop tool",
   "main": "index.js",
   "bin": {

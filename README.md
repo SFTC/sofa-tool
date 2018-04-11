@@ -34,3 +34,8 @@ sofa -d componentName
 ## delete
 
 delete the declare of the component
+
+## 更新记录
+
+* v1.0.3 新增delete命令；
+* v1.0.4 完善package模板（雨扬）；
